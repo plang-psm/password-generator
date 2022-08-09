@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Pwd Generator</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="heading-container">
+        <h1>
+          Generate a <br />
+          <span class="green">random password</span>
+        </h1>
+        <h3>Never use an insecure password again.</h3>
+        <button class="generate-btn" onclick="genPwds()">
+          Generate passwords
+        </button>
+      </div>
+    </div>
+    <div class="display-container">
+      <p id="first-pwd-el" class="firstPwd" onclick="copyText()"></p>
+      <p id="second-pwd-el" class="secondPwd"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

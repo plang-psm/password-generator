@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f2937;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.content-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 75px 0;
+  text-align: start;
+  margin-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+.heading-container h1 {
+  font-size: 90px;
+  margin-bottom: 0;
+}
+
+.green {
+  color: #4adf86;
+}
+
+.heading-container h3 {
+  font-size: 25px;
+  color: #bababa;
+  margin-bottom: 50px;
+}
+
+.generate-btn {
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #10b981;
+  border: none;
+}
+
+.generate-btn:hover {
+  background-color: transparent;
+  color: #10b981;
+  box-shadow: 0 0 10px #10b981;
+}
+
+.display-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstPwd {
+  margin-right: 20px;
+}
+
+.secondPwd {
+  margin-left: 20px;
+}
+
+.display-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 70px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #273549;
+  color: #55f991;
+}
+
+@media only screen and (max-width: 1280px) {
+  .content-container,
+  .display-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1056px) {
+  .content-container,
+  .display-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .content-container,
+  .display-container {
+    width: 90%;
+  }
+  .heading-container h1 {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-width: 807px) {
+  .display-container p {
+    font-size: 25px;
+  }
+  .heading-container h1 {
+    font-size: 55px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .display-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .display-container p {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .firstPwd,
+  .secondPwd {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .heading-container h1 {
+    font-size: 65px;
+  }
+
+  .display-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .display-container p {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .heading-container h1 {
+    font-size: 50px;
+  }
+}
