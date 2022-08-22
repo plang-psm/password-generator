@@ -43,7 +43,7 @@ The Password Generator was created as a training exercise to practice DOM manipu
   - [ ] Click to copy to the clipboard
 
 ## Launch
-You can display the project and its code here:
+You can open the project here:
 [Password Generator](https://plang-psm.github.io/password-generator/)
 
 
